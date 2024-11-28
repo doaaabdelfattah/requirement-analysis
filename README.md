@@ -48,3 +48,67 @@ It sets the foundation for the project, ensuring the development team understand
 - Review and Approval: Reviewing the documented requirements with stakeholders to ensure accuracy and completeness.
 - Acceptance Criteria: Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
 - Traceability: Establishing traceability matrices to ensure all requirements are addressed during development and testing.
+
+## Types of Requirements
+
+- **Functional Requirements**
+  Definition: Describe what the system should do.
+  **Example from Case Study**
+
+1. Hotel Management Service
+
+Requirement: Allow hotel managers to update their hotel information, such as room availability, pricing, and offers.
+Example: A manager updates the price for deluxe rooms in their hotel via the Hotel Management Portal.
+
+2. Customer Service
+
+Requirement: Enable customers to search for hotels based on location, availability, and preferences.
+Example: A customer searches for hotels in "New York" with check-in and check-out dates.
+
+3. View Booking Service
+
+Requirement: Provide customers and hotel managers access to booking history, including past and current bookings.
+Example: A customer checks their booking details for a stay in a hotel next month.
+
+- **Non-Functional Requirements**
+  Non-functional requirements define the quality attributes or constraints of the system. They focus on how the system performs its functions rather than the specific functionalities.
+
+1. Performance
+
+- Requirement: The system should handle up to 1 million API requests per second to manage high traffic during peak hours.
+- Example: During a holiday sale, the system efficiently handles thousands of concurrent hotel bookings.
+
+2. Scalability
+
+Requirement: The system should scale horizontally by adding more servers to the load balancer.
+Example: As user traffic increases, new servers are added to the cluster to handle additional requests.
+
+3. Reliability
+
+Requirement: Ensure data consistency between the master and slave databases.
+Example: Updates made to the master database (e.g., room availability) are reflected in slave databases without delay.
+
+4. Security
+
+Requirement: All sensitive user data, such as payment details, must be encrypted during transmission and storage.
+Example: Payment information is encrypted using SSL/TLS protocols to prevent unauthorized access.
+
+5. Response Time
+
+Requirement: APIs must respond within 200 milliseconds for all customer-facing services.
+Example: When a user searches for a hotel, the results are displayed within 200ms.
+
+6. Maintainability
+
+Requirement: The system should allow seamless updates without downtime.
+Example: A new feature is deployed to the Hotel Management Service without interrupting ongoing usage.
+
+7. Data Retention and Archiving
+
+Requirement: Archive old booking data into Cassandra for historical analysis and reduce database load.
+Example: Booking records older than one year are automatically moved to Cassandra for archival purposes.
+
+8. Big Data Analysis
+
+Requirement: Use Hadoop to analyze booking patterns and customer preferences.
+Example: The system identifies frequent travelers to New York and targets them with promotional offers.
