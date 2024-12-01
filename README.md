@@ -51,7 +51,7 @@ It sets the foundation for the project, ensuring the development team understand
 
 ## Types of Requirements
 
-- **Functional Requirements**
+- ## **Functional Requirements**
   Definition: Describe what the system should do.
   **Example from Case Study**
 
@@ -70,7 +70,7 @@ Example: A customer searches for hotels in "New York" with check-in and check-ou
 Requirement: Provide customers and hotel managers access to booking history, including past and current bookings.
 Example: A customer checks their booking details for a stay in a hotel next month.
 
-- **Non-Functional Requirements**
+- ## **Non-Functional Requirements**
   Non-functional requirements define the quality attributes or constraints of the system. They focus on how the system performs its functions rather than the specific functionalities.
 
 1. **Performance**
