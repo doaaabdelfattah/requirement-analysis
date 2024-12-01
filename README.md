@@ -112,3 +112,20 @@ Example: Booking records older than one year are automatically moved to Cassandr
 
 Requirement: Use Hadoop to analyze booking patterns and customer preferences.
 Example: The system identifies frequent travelers to New York and targets them with promotional offers.
+
+## Use Case Diagrams
+
+**What Are Use Case Diagrams?**
+Use Case Diagrams are visual representations of the interactions between users (actors) and a system. They provide a high-level overview of the system's functionality by illustrating the relationships between various actors and their associated actions (use cases).
+
+**Benefits of Use Case Diagrams:**
+
+- Clear Communication: They help stakeholders understand the system's scope and interactions without technical complexity.
+- Requirement Validation: Aid in verifying that all functional requirements are addressed.
+- Simplified Design: Provide developers with a visual guide for implementing features and user interactions.
+- Documentation: Serve as a useful reference throughout the software development lifecycle (SDLC).
+
+**Use Case Diagram for the Booking System**
+Below is a use case diagram for a booking management system, illustrating interactions between users and the system.
+
+![useCase](/alx-booking-uc.png)
