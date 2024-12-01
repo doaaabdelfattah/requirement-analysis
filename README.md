@@ -129,3 +129,49 @@ Use Case Diagrams are visual representations of the interactions between users (
 Below is a use case diagram for a booking management system, illustrating interactions between users and the system.
 
 ![useCase](/alx-booking-uc.png)
+
+## Acceptance Criteria.
+
+Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders.
+
+### Benefits of Acceptance Criteria:
+
+- Ensure all parties have a clear understanding of feature requirements.
+- Provide a basis for testing and validation.
+- Help in maintaining quality and meeting user expectations.
+
+### Acceptance Criteria of Feature: Checkout
+
+1. Successful Checkout Process
+
+- Given: A user has selected a room and added it to the cart.
+- When: The user clicks the "Checkout" button and provides all necessary information.
+- Then: The system processes the booking, confirms payment, and displays a booking confirmation page with the booking ID.
+
+2. Validation of Required Fields
+
+- Given: A user is on the checkout page.
+- When: The user submits the form without completing required fields (e.g., name, email, payment details).
+- Then: The system displays appropriate validation error messages for each missing or invalid field.
+
+3. Payment Integration
+
+- Given: The user selects a payment method (e.g., credit card, PayPal).
+- When: The user submits their payment details.
+- Then: The system communicates with the payment gateway, validates the payment, and displays a success or failure message based on the result.
+
+4. Booking Confirmation
+
+- Given: The payment is successful.
+- When: The system confirms the booking.
+- Then: The user receives a confirmation page with:
+  Booking ID
+  Booking details (e.g., room type, dates, guest details)
+  Payment summary
+  An option to download or email the receipt.
+
+5. Cancellation Option
+
+- Given: The booking has been successfully created.
+- When: The user views the confirmation page or their booking history.
+- Then: The system provides an option to cancel the booking based on the cancellation policy.
